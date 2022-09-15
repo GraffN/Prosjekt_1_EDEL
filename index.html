@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EDEL</title>
+    <link rel="stylesheet" href="Styles/Main.css">
+    <link rel="stylesheet" href="Styles/revertDefault.css">
+    <link href='https://fonts.googleapis.com/css?family=Mina' rel='stylesheet'>
+</head>
+<body>
+
+<div class="Navigation">
+    <div class="Navigation__logo">
+        <h3 class="Navigation__logo--text">EDEL</h3>
+    </div>
+    <div class="Navigation__links">
+
+        <a class="nav__link" href="#">Home</a>
+        <a class="nav__link" href="#">Locations</a>
+        <a class="nav__link" href="#">Login</a>
+
+    </div>
+    <div class="Navigation__dropdown"></div>
+</div>
+<div class="form">
+    <form action="">
+        <input class="form__input" type="text" name="username" placeholder="Username" id="">
+        <input class="form__input" type="password" name="password" placeholder="Password" id="">
+        <input class="form__input" type="password" name="repeatPassword" placeholder="Repeat password" id="">
+        <div class="form__input">
+            <input class="" type="checkbox" name="bergen" value="bergen" id="">
+            <label for="bergen">Bergen</label>
+            <input class="" type="checkbox" name="oslo" value="oslo" id="">
+            <label for="oslo">Oslo</label>
+        </div>
+
+        <label class="form__input" for="vehicle">Please choose a vehicle</label>
+        <select class="form__input form__input--select" name="vehicle" id="">
+            <option value="bike">Bike</option>
+            <option value="car">Car</option>
+            <option value="boat">Boat</option>
+        </select>
+    </form>
+</div>
+<div class="locations">
+    <div class="locations__image locations__image--Bergen">
+        <div class="locations__textBox">
+            <h4 class="locations__title">BERGEN</h4>
+            <h5 class="locations__area">Marineholmen</h5>
+            <h7 class="locations__address" >Thormøhles gate 41 <br> 60.3806, 5.3296</h7>
+            <ul class="locations__vehicleList">
+                <li>4 Cars</li>
+                <li>10 Bikes</li>
+                <li>1 Boat</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="locations__image locations__image--Oslo">
+        <div class="locations__textBox">
+            <h4 class="locations__title">OSLO</h4>
+            <h5 class="locations__area">Bjørvika</h5>
+            <h7 class="locations__address" >Operagata 77 <br> 59.9057, 10.7603</h7>
+            <ul class="locations__vehicleList">
+                <li>4 Cars</li>
+                <li>10 Bikes</li>
+                <li>1 Boat</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<script src="Script/Main.js"></script>
+</body>
+</html>

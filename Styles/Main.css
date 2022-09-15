@@ -1,0 +1,110 @@
+body{
+    background: rgb(233,30,99);
+    background: linear-gradient(135deg, rgba(233,30,99,1) 0%, rgba(239,108,0,1) 100%);
+    font-family: 'Mina';font-size: 22px;
+    color: whitesmoke;
+    background-attachment: fixed; /*edit*/
+
+
+}
+.Navigation{
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    background-color: #E91E63;
+}
+.Navigation__logo{
+    height: 100%;
+    align-content: center;
+    width: 50%;
+    display: inline-grid;
+    margin-left: 50px;
+}
+.Navigation__logo--text{
+    font-size: 40px;
+}
+.Navigation__links{
+    align-self: center;
+    right: 0px;
+    width: 50%;
+    text-align: right;
+}
+.nav__link{
+    margin-right: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    color: inherit;
+}
+.nav__link:hover{
+    border-bottom: 2px solid white;
+}
+.form{
+    width: 20%;
+    display: flex;
+    background-color: #E91E63;
+    margin:80px;
+    border-radius: 5px;
+}
+.form__input{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.form__input--select{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.locations{
+    width: 100%;
+    height: 720px;
+    background-color: hotpink;
+    display: inline-flex;
+}
+.locations__image{
+
+    /* Full height */
+    height: 100%;
+    width: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(240,100,0,.4);
+}
+.locations__image--Oslo{
+    /* The image used */
+    background-image: url("../Assets/bjørvika.jpg");
+
+}
+.locations__image--Bergen{
+    /* the image used*/
+    background-image: url("../Assets/Marineholmen.jpg");
+
+}
+.locations__textBox{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25%;
+    color: whitesmoke;
+
+}
+.locations__title{
+    font-size: 80px;
+}
+.locations__area{
+    font-size: 25px;
+    margin-top: -30px;
+    font-weight: lighter;
+}
+.locations__address{
+
+}
+.locations__vehicleList{
+    padding-top: 50px;
+    font-size: 35px;
+}
